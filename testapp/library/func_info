@@ -1,0 +1,9 @@
+<?php
+
+function getMemberInfo($userid,$fieldname){
+	$sql = "Select * from tbl_member where mem_id=$id";
+	$result = mysql_query($sql);
+	$row = mysql_fetch_assoc($result);
+	return $row[$fieldname];
+	
+}

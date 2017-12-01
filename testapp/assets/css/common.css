@@ -1,0 +1,46 @@
+.modalheader{
+	background-color:#d11516;
+	color:#fff;
+}
+.modaltable{
+	width: 350px;
+}
+.modaltable .textbox{
+	padding:5px;
+	width:90%;
+	color:#000;
+}
+
+.modaltable .submitbtn{
+	background-color:#d11516;
+	color:#fff;
+	padding:10px 20px 10px 20px;
+	margin-top:10px;
+	border:1px solid #ccc;
+}
+.modal{
+    width: 380px !important;
+    margin: 0 auto;
+}
+.modal-title{
+	text-align:center;
+	text-transform:uppercase;
+	width: 340px !important;
+}
+#guestform{
+	 
+}
+
+#welcomeguest{
+	 width: 340px;
+	 font-size:15px;
+    text-align:center;
+    display:none;
+}
+#welcomeguest .submitbtn{
+	background-color:#d11516;
+	color:#fff;
+	padding:10px 20px 10px 20px;
+	margin-top:10px;
+	border:1px solid #ccc;
+}
